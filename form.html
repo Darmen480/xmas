@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>Gift Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+</head>
+<body>
+        <header class="header">
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html" style="font-family:'Bangers', cursive;">HOME</a>
+				</li>
+	        </ul>
+		</nav>
+    </header>
+    
+    <form name='form' onsubmit="return formValidation()" class="main">
+    	
+    	<ul>
+    		<li>
+    			<div class="title"><h1 style="font-family: 'Mountains of Christmas', cursive;">Ho! Ho! Ho! Santa is on his way to your doorstep! </h1></div>
+           </li>
+    		<li><label style="font-family: 'Mountains of Christmas', cursive; color: yellow; font-size: 20px;">Name</label></li>
+    		<li><input type="text" name="name" required></li>
+
+
+    		<li><label style="font-family: 'Mountains of Christmas', cursive; font-size: 20px; color: white;">Residential Adress</label></li>
+    		<li><input type="letter" name="residentialaddress" required></li>
+
+
+    		<li><label style="font-family: 'Mountains of Christmas', cursive; font-size: 20px; color: cyan;">Email Adress</label></li>
+    		<li><input type="emailadress" name="emailadress" required></li>
+
+	<li><label style="font-family: 'Mountains of Christmas', cursive; font-size: 20px; color: gold;">Gifts</label></li>
+    		<li><select name="gifts" required="gifts">
+	        	<option value="" disabled selected>Choose Your Desired Gift</option>
+	        	
+				<option label="Bluetooth Knit Beanie">Bluetooth Knit Beanie</option>
+				<option label="Frozen II Elsa’s Jewelry Box">Frozen II Elsa’s Jewelry Box</option>
+				<option label="Multiple Name Necklace">Multiple Name Necklace</option>
+				<option label="Etched Skyline Wine Glass">Etched Skyline Wine Glass</option>	
+				<option label="Charging Cord Bracelet">Charging Cord Bracelet</option>
+			    
+				</select>		
+	        </li>
+
+    		<li><label for="more" style="font-family: 'Mountains of Christmas', cursive; font-size: 20px; color: red;">Let Santa know if your gift were not in the list and more about your wishes!!</label></li>
+			<li><textarea></textarea></li>
+
+    		
+           <button onclick="" style="font-family: 'Bangers', cursive;"><a href="mailto:rajunited26@gmail.com? subject=form" class="button">Submit</button>
+
+    	    </form>
+</body>
+</html>

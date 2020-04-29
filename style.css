@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica',serif;
+}
+
+.container
+{
+	height: 100%;
+	width: 100%;
+	background-color: #a30000;
+}
+
+.menus ul 
+{
+	display: inline-flex;
+	margin: 50px;
+	float: right;
+	margin-top: -65px;
+	}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.menus ul li
+{
+	list-style: none;
+	margin:0 20px;
+	color: yellow;
+	cursor: pointer;
+	text-decoration: none;
+	list-style-type: none;
+}	
+
+.image img
+{ 
+	margin-top: -7px;
+	margin-right: 48px;
+	width: 145px;
+	margin-left: 20px;
+
+}
+
+.trees
+{
+	width: 20%;
+	display: flex;
+    position: relative;
+}
+
+.tree
+{
+	position: absolute;
+	top: 50%;
+	margin-left: 35%;
+}
+
+.hop
+{
+	position: absolute;
+	top: 20%;
+	margin-left: 27%;
+}
+
+
+
